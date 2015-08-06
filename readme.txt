@@ -1,12 +1,11 @@
 === Serverstate ===
-Contributors: pluginkollektiv
-Tags: server, monitoring, response, uptime, downtime, serverstate
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZAQUT9RLPW8QN
+Contributors:      pluginkollektiv
+Tags:              server, monitoring, response, uptime, downtime, serverstate
 Requires at least: 3.3
-Tested up to: 4.2.2
-Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to:      4.3
+Stable tag:        trunk
+License:           GPLv2 or later
+License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
@@ -16,16 +15,17 @@ Dashboard-Widget für Serverstate, das zuverlässige Server Monitoring Tool. Blo
 
 == Description ==
 
+    An account at [Serverstate](https://serverstate.de/ "Server Monitoring") is required in order to use this plugin. The authors of this plugin are not affiliated with Serverstate.
+    The Serverstate web service is available in German language only. We didn’t bother translating this description, because in case you don’t read German, you will hardly be able to use both the web service and the plugin.
+
 = Online-Status & Performance =
-[Serverstate](https://serverstate.de/?referrer=245049071 "Server Monitoring")* ist ein Monitoring Service, welcher die Erreichbarkeit von Webseiten überwacht und deren Antwortzeiten misst. Im Fall einer Nichterreichbarkeit der Zielseite verschickt der Dienst eine E-Mail, Tweet oder SMS als Benachrichtigung.
+[Serverstate](https://serverstate.de/ "Server Monitoring")* ist ein Monitoring Service, welcher die Erreichbarkeit von Webseiten überwacht und deren Antwortzeiten misst. Im Fall einer Nichterreichbarkeit der Zielseite verschickt der Dienst eine E-Mail, Tweet oder SMS als Benachrichtigung.
 
 Das *Serverstate* Plugin legt im WordPress-Administrationsbereich ein Dashboard-Widget an, welches Antwortzeiten und Erreichbarkeitswerte des Blogs als Statistik abbildet. Wie oft war der Blog offline? Hat sich nach einem Update die Performance verschlechtert? Das *Serverstate* Widget liefert Antworten und schafft einen Überblick über die Erreichbarkeit und Geschwindigkeit in den letzten 30 Tagen.
 
 Direkt im *Serverstate* Widget über den Link *Konfigurieren* werden die Zugangsdaten des *Serverstate* Accounts und die zuständige Sensor-ID (ID des Überwachungsauftrags) hinterlegt. Bedauerlicherweise stellt *Serverstate* keine API-Kommunikation mithilfe eines API-Schlüssels zur Verfügung, sodass Zugangsdaten des *Serverstate* Accounts in WordPress verschlüsselt gespeichert und ausschließlich zum Datenabgleich mit der *Serverstate* Schnittstelle verwendet werden (müssen).
 
 Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei Mausberührungen erscheint die jeweilige Kennzahl zum gewählten Tag: *Antwortzeit in Millisekunden* oder *Erreichbarkeit in Prozent* (sind zwei Diagrammlinien).
-
-*Partnerlink
 
 
 = Hinweise =
@@ -39,17 +39,6 @@ Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei M
 * PHP ab 5.2
 * WordPress ab 3.3
 * Serverstate Account
-
-
-= Unterstützung =
-* Per [Flattr](https://flattr.com/t/1768517)
-* Per [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZAQUT9RLPW8QN)
-
-
-= Autor =
-* [Twitter](https://twitter.com/wpSEO)
-* [Google+](https://plus.google.com/110569673423509816572)
-* [Plugins](http://wpcoder.de)
 
 
 
