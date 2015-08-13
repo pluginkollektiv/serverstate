@@ -39,6 +39,11 @@ Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei M
 * Serverstate Account
 
 
+### Credits ###
+* Autor: [Sergej Müller](https://sergejmueller.github.io/)
+* Pflege: [pluginkollektiv](http://pluginkollektiv.org)
+
+
 ## Changelog ##
 
 ### 0.5.2 ###
