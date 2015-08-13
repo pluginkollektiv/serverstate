@@ -1,14 +1,23 @@
-# Serverstate
+# Serverstate #
+Contributors:      pluginkollektiv
+Tags:              server, monitoring, response, uptime, downtime, serverstate
+Requires at least: 3.3
+Tested up to:      4.3
+Stable tag:        trunk
+License:           GPLv2 or later
+License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+
+
 Dashboard-Widget für Serverstate, das zuverlässige Server Monitoring Tool. Blogausfälle protokollieren, Performance messen.
 
 
-## Beschreibung ##
+## Description ##
 
-> __An account at [Serverstate](https://serverstate.de/ "Server Monitoring") is required in order to use this plugin. The authors of this plugin are not affiliated with Serverstate.__
-> The Serverstate web service is available in German language only. We didn’t bother translating this description, because in case you don’t read German, you will hardly be able to use both the web service and the plugin.
+> An account at [Serverstate](https://serverstate.de/ "Server Monitoring") is required in order to use this plugin. The authors of this plugin are not affiliated with Serverstate.
+> The Serverstate web service is available in German language only. We didn’t bother translating this description, because in case you don’t read German, you will hardly want to use the web service, and thus not the plugin.
 
 ### Online-Status & Performance ###
-[Serverstate](https://serverstate.de/ "Server Monitoring") ist ein Monitoring Service, welcher die Erreichbarkeit von Webseiten überwacht und deren Antwortzeiten misst. Im Fall einer Nichterreichbarkeit der Zielseite verschickt der Dienst eine E-Mail, Tweet oder SMS als Benachrichtigung.
+[Serverstate](https://serverstate.de/ "Server Monitoring")* ist ein Monitoring Service, welcher die Erreichbarkeit von Webseiten überwacht und deren Antwortzeiten misst. Im Fall einer Nichterreichbarkeit der Zielseite verschickt der Dienst eine E-Mail, Tweet oder SMS als Benachrichtigung.
 
 Das *Serverstate* Plugin legt im WordPress-Administrationsbereich ein Dashboard-Widget an, welches Antwortzeiten und Erreichbarkeitswerte des Blogs als Statistik abbildet. Wie oft war der Blog offline? Hat sich nach einem Update die Performance verschlechtert? Das *Serverstate* Widget liefert Antworten und schafft einen Überblick über die Erreichbarkeit und Geschwindigkeit in den letzten 30 Tagen.
 
@@ -18,19 +27,16 @@ Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei M
 
 
 ### Hinweise ###
-1. Bei neu angelegten *Serverstate* Überwachungsaufträgen kann es mehrere Stunden dauern, bis *Serverstate* hierzu Daten zum Abruf bereitstellt.
-1. Das Plugin verfügt über einen internen Cache, wo die Statistik für einen halben Tag aufbewahrt wird. Nach Ablauf der 12 Stunden wird eine Synchronisation durchgeführt.
-1. Die in Plugin-Optionen abgefragte Sensor-ID ist eine Zahl, die einem Überwachungsauftrag von *Serverstate* zugewiesen und beim Anzeigen bzw. Bearbeiten des Auftrages in der URL sichtbar ist. Das zu suchende Muster: *?sensor_id=912164573*
-1. *Serverstate* ist ein kostenpflichtiger Dienst. Der Kostenfaktor hängt von der Prüfungshäufigkeit ab. [Kurze Vorstellung des Dienstes](https://plus.google.com/110569673423509816572/posts/hWdRrhWyots).
+- Bei neu angelegten *Serverstate* Überwachungsaufträgen kann es mehrere Stunden dauern, bis *Serverstate* hierzu Daten zum Abruf bereitstellt.
+- Das Plugin verfügt über einen internen Cache, wo die Statistik für einen halben Tag aufbewahrt wird. Nach Ablauf der 12 Stunden wird eine Synchronisation durchgeführt.
+- Die in Plugin-Optionen abgefragte Sensor-ID ist eine Zahl, die einem Überwachungsauftrag von *Serverstate* zugewiesen und beim Anzeigen bzw. Bearbeiten des Auftrages in der URL sichtbar ist. Das zu suchende Muster: *?sensor_id=912164573*
+- *Serverstate* ist ein kostenpflichtiger Dienst. Der Kostenfaktor hängt von der Prüfungshäufigkeit ab. [Kurze Vorstellung des Dienstes](https://plus.google.com/110569673423509816572/posts/hWdRrhWyots).
 
 
 ### Systemanforderungen ###
 * PHP ab 5.2
 * WordPress ab 3.3
 * Serverstate Account
-
-### Lizenz
-* [GPLv2 oder höher](http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 ## Changelog ##
@@ -64,12 +70,11 @@ Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei M
 * Serverstate Plugin geht online
 
 
-
 ## Screenshots ##
 
-* [Serverstate Dashboard Widget mit Verlauf](https://wordpress.org/plugins/serverstate/screenshots/)
-
-
+###1. Serverstate Dashboard Widget mit Verlauf
+###
+![Serverstate Dashboard Widget mit Verlauf](https://ps.w.org/serverstate/assets/screenshot-1.png)
 
 
 ## Installation ##
