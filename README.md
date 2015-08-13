@@ -18,26 +18,26 @@ Dashboard-Widget für Serverstate, das zuverlässige Server Monitoring Tool. Blo
 > The Serverstate web service is available in German language only. We didn’t bother translating this description, because in case you don’t read German, you will hardly want to use the web service, and thus not the plugin.
 
 ### Online-Status & Performance ###
-[Serverstate](https://serverstate.de/ "Server Monitoring")* ist ein Monitoring Service, welcher die Erreichbarkeit von Webseiten überwacht und deren Antwortzeiten misst. Im Fall einer Nichterreichbarkeit der Zielseite verschickt der Dienst eine E-Mail, Tweet oder SMS als Benachrichtigung.
+[Serverstate](https://serverstate.de/ "Server Monitoring") ist ein Monitoring Service, welcher die Erreichbarkeit von Webseiten überwacht und deren Antwortzeiten misst. Im Fall einer Nichterreichbarkeit der Zielseite verschickt der Dienst eine E-Mail, einen Tweet oder eine SMS als Benachrichtigung.
 
-Das *Serverstate* Plugin legt im WordPress-Administrationsbereich ein Dashboard-Widget an, welches Antwortzeiten und Erreichbarkeitswerte des Blogs als Statistik abbildet. Wie oft war der Blog offline? Hat sich nach einem Update die Performance verschlechtert? Das *Serverstate* Widget liefert Antworten und schafft einen Überblick über die Erreichbarkeit und Geschwindigkeit in den letzten 30 Tagen.
+Das *Serverstate* Plugin legt im WordPress-Administrationsbereich ein Dashboard-Widget an, welches Antwortzeiten und Erreichbarkeitswerte des Blogs als Statistik abbildet. Wie oft war die Website offline? Hat sich nach einem Update die Performance verschlechtert? Das *Serverstate*-Widget liefert Antworten und schafft einen Überblick über die Erreichbarkeit und Geschwindigkeit in den letzten 30 Tagen.
 
-Direkt im *Serverstate* Widget über den Link *Konfigurieren* werden die Zugangsdaten des *Serverstate* Accounts und die zuständige Sensor-ID (ID des Überwachungsauftrags) hinterlegt. Bedauerlicherweise stellt *Serverstate* keine API-Kommunikation mithilfe eines API-Schlüssels zur Verfügung, sodass Zugangsdaten des *Serverstate* Accounts in WordPress verschlüsselt gespeichert und ausschließlich zum Datenabgleich mit der *Serverstate* Schnittstelle verwendet werden (müssen).
+Direkt im *Serverstate*-Widget über den Link *Konfigurieren* werden die Zugangsdaten des *Serverstate*-Accounts und die zuständige Sensor-ID (ID des Überwachungsauftrags) hinterlegt. Bedauerlicherweise stellt *Serverstate* keine API-Kommunikation mithilfe eines API-Schlüssels zur Verfügung, so dass Zugangsdaten des *Serverstate*-Accounts in WordPress verschlüsselt gespeichert und ausschließlich zum Datenabgleich mit der *Serverstate*-Schnittstelle verwendet werden (müssen).
 
 Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei Mausberührungen erscheint die jeweilige Kennzahl zum gewählten Tag: *Antwortzeit in Millisekunden* oder *Erreichbarkeit in Prozent* (sind zwei Diagrammlinien).
 
 
 ### Hinweise ###
-- Bei neu angelegten *Serverstate* Überwachungsaufträgen kann es mehrere Stunden dauern, bis *Serverstate* hierzu Daten zum Abruf bereitstellt.
-- Das Plugin verfügt über einen internen Cache, wo die Statistik für einen halben Tag aufbewahrt wird. Nach Ablauf der 12 Stunden wird eine Synchronisation durchgeführt.
-- Die in Plugin-Optionen abgefragte Sensor-ID ist eine Zahl, die einem Überwachungsauftrag von *Serverstate* zugewiesen und beim Anzeigen bzw. Bearbeiten des Auftrages in der URL sichtbar ist. Das zu suchende Muster: *?sensor_id=912164573*
-- *Serverstate* ist ein kostenpflichtiger Dienst. Der Kostenfaktor hängt von der Prüfungshäufigkeit ab. [Kurze Vorstellung des Dienstes](https://plus.google.com/110569673423509816572/posts/hWdRrhWyots).
+* Bei neu angelegten *Serverstate* Überwachungsaufträgen kann es mehrere Stunden dauern, bis *Serverstate* hierzu Daten zum Abruf bereitstellt.
+* Das Plugin verfügt über einen internen Cache, wo die Statistik für einen halben Tag aufbewahrt wird. Nach Ablauf der 12 Stunden wird eine Synchronisation durchgeführt.
+* Die in Plugin-Optionen abgefragte Sensor-ID ist eine Zahl, die einem Überwachungsauftrag von *Serverstate* zugewiesen und beim Anzeigen bzw. Bearbeiten des Auftrages in der URL sichtbar ist. Das zu suchende Muster: *?sensor_id=912164573*
+* *Serverstate* ist ein kostenpflichtiger Dienst. Der Kostenfaktor hängt von der Prüfungshäufigkeit ab. [Kurze Vorstellung des Dienstes](https://plus.google.com/110569673423509816572/posts/hWdRrhWyots).
 
 
 ### Systemanforderungen ###
 * PHP ab 5.2
 * WordPress ab 3.3
-* Serverstate Account
+* Serverstate-Account
 
 
 ### Credits ###
@@ -78,15 +78,13 @@ Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei M
 
 ## Screenshots ##
 
-###1. Serverstate Dashboard Widget mit Verlauf
-###
+### 1. Serverstate Dashboard Widget mit Verlauf ###
 ![Serverstate Dashboard Widget mit Verlauf](https://ps.w.org/serverstate/assets/screenshot-1.png)
 
 
 ## Installation ##
-
 1. Den Plugin-Ordner ins WordPress-Verzeichnis */wp-content/plugins/* übertragen.
-1. Das Plugin unter *Plugins* aktivieren.
-1. In der gleichen Ansicht auf *Einstellungen* klicken.
-1. Im Formular die Serverstate Zugangsdaten und die Sensor-ID eingeben.
-1. Die Eingabe speichern.
+* Das Plugin unter *Plugins* aktivieren.
+* In der gleichen Ansicht auf *Einstellungen* klicken.
+* Im Formular die Serverstate Zugangsdaten und die Sensor-ID eingeben.
+* Die Eingabe speichern.
