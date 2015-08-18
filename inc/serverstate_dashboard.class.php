@@ -216,7 +216,7 @@ class Serverstate_Dashboard
 					<input type="password" name="serverstate[password]" autocomplete="off" value="" />
 				</td>
 				<td>
-					<a href="https://serverstate.de/?referrer=245049071" target="_blank" class="button-secondary">Bei Serverstate anmelden →</a>
+					<a href="https://serverstate.de/" target="_blank" class="button-secondary">Bei Serverstate anmelden →</a>
 				</td>
 			</tr>
 			<tr>
