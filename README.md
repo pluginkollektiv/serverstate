@@ -46,6 +46,9 @@ Die auf dem WordPress-Dashboard abgebildete Statistik ist interaktiv, d.h. bei M
 
 
 ## Changelog ##
+### 0.5.3 ###
+* README überarbeitet
+* Angabe zu [Plugin-Autoren](https://gist.github.com/glueckpress/f058c0ab973d45a72720) angepasst
 
 ### 0.5.2 ###
 * Anpassung zwecks Wechsel des TLS-Zertifikats (auf Seite von Serverstate)

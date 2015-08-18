@@ -7,7 +7,7 @@ Author URI:  http://pluginkollektiv.org
 Plugin URI:  https://wordpress.org/plugins/serverstate/
 License:     GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version:     0.5.2
+Version:     0.5.3
 */
 
 /*
