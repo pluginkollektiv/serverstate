@@ -1,6 +1,6 @@
 # Serverstate #
 * Contributors:      pluginkollektiv
-* Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LG5VC9KXMAYXJ
+* Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CH5FPR88QYML
 * Tags:              server, monitoring, response, uptime, downtime, serverstate
 * Requires at least: 3.3
 * Tested up to:      4.3
