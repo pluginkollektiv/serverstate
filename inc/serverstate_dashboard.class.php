@@ -204,7 +204,7 @@ class Serverstate_Dashboard
 			<tr>
 				<td>
 					<label>Benutzername:</label>
-					<input type="text" name="serverstate[nickname]" autocomplete="off" value="<?php esc_attr_e($options['nickname']) ?>" />
+					<input type="text" name="serverstate[nickname]" autocomplete="off" value="<?php esc_attr_e($options['nickname'], 'serverstate' ) ?>" />
 				</td>
 				<td>
 					Noch kein Serverstate-Account?
@@ -222,7 +222,7 @@ class Serverstate_Dashboard
 			<tr>
 				<td>
 					<label>Sensor ID:</label>
-					<input type="text" name="serverstate[sensor_id]" autocomplete="off" value="<?php esc_attr_e($options['sensor_id']) ?>" />
+					<input type="text" name="serverstate[sensor_id]" autocomplete="off" value="<?php esc_attr_e($options['sensor_id'], 'serverstate' ) ?>" />
 				</td>
 				<td>
 					<em>Partnerlink. Danke.</em>

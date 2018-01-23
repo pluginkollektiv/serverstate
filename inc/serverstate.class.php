@@ -167,7 +167,7 @@ class Serverstate
 						),
 						admin_url('/')
 					),
-					__('Settings')
+					__( 'Settings', 'serverstate' )
 				)
 			)
 		);
